@@ -64,3 +64,19 @@ hr {
 .update {
     width: 10%;
 }
+
+button div{
+    width:16px;
+    height:16px;
+    background-image: url(images/bin.png);      
+}
+
+button div.leftImage{
+    background-position: -96px -112px;
+    float: left;
+}
+
+button div.rightImage{
+    background-position: -64px -16px;
+    float: right;
+}
